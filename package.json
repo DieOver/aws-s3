@@ -1,0 +1,32 @@
+{
+  "name": "@dieover/aws-s3",
+  "version": "0.0.1",
+  "description": "Package to UPLOAD and DELETE file on AWS S3",
+  "main": "index.js",
+  "private": false,
+  "keywords": [
+    "aws",
+    "s3",
+    "aws s3",
+    "awss3",
+    "aws-s3"
+  ],
+  "author": "Lennon Milicic Costa <dieoverofficial@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.679.0"
+  },
+  "homepage": "https://github.com/DieOver/aws-s3",
+  "bugs": {
+    "url": "https://github.com/DieOver/aws-s3/issues",
+    "email": "dieoverofficial@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DieOver/aws-s3.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true
+}
