@@ -1,6 +1,6 @@
 {
   "name": "@dieover/aws-s3",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Package to UPLOAD and DELETE file on AWS S3",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
