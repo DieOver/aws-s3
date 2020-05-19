@@ -1,5 +1,7 @@
 # @dieover/aws-s3
 
+`npm install @dieover/aws-s3 --save`
+
 ```js
 const AWSS3 = require('@dieover/aws-s3');
 
