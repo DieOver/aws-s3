@@ -21,15 +21,15 @@ declare class AWSS3 {
 
     /**
      * This function delete file on AWS S3
-     * Key is the URL of File whiout de domain
+     * Key is the URL of File without de domain
      * e.g:
      * 
-     * URL: https://S3_BUCKET.s3.S3_REGION.amazonaws.com/images/new.png
+     * URL: https://S3_BUCKET.s3-S3_REGION.amazonaws.com/profiles/NameOfImage.png
      * 
-     * KEY Will be: images/new.png
-     * @param {string} key Key of file to delete
+     * KEY Will be: profiles/NameOfImage.png
+     * @param {string} photo_url Photo URL to delete
      */
-    delete(key: string): Promise<string>;
+    delete(photo_url: string): Promise<string>;
 }
 
 declare namespace AWSS3 {
