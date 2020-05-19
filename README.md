@@ -20,9 +20,7 @@ const deleted = await aws.delete(photo_url);
 
 - **BASE64**: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQAB...
 - **FOLDER**: images/something/else
-    - whitout "/" in start and end of string
 - **FILENAME**: filename
-    - without extension
 - **SUCCESS RETURN**: Photo URL.
 - **FAILED RETURN**: Failed to save image.
 ```
